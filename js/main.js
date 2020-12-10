@@ -4,7 +4,9 @@ PDFbtn.addEventListener('click', (e) => {
     e.preventDefault()
     //Get a data from database using Asynchronous method
 
-    fetch('http://fluctron.tech/pdf_generation/db/sample-data.json') //Ssample API request for PDF Data
+    fetch('http://localhost/pdf_generation/db/sample-data.json')
+    //Ssample API request for PDF Data
+    //Use for different CORS origin use mode: 'no-cors' policy
         .then(res => res.json())
         .then(data => generatePDF(data))
         .catch(error => {
