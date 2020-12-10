@@ -1,0 +1,25 @@
+{
+    "Invoice" : [
+        {
+            "Inv_no" : "12",
+            "created_At": "December 10, 2020",
+            "due_date": "January 1, 2021",
+            "customer" : [
+                {
+                    "Cust_name": "Aditya Prakash",
+                    "address": "Bhopal, gandhinagar",
+                    "email": "prakashaditya13011999@gmail.com"
+                }
+            ],
+            "company": [
+                {
+                    "comp_name": "Goetra",
+                    "address": "New Delhi",
+                    "email": "XYZ@gmail.com"
+                }
+            ]
+
+        }
+    ]
+
+}
